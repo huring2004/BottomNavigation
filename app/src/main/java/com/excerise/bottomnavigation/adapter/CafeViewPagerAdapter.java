@@ -1,5 +1,8 @@
 package com.excerise.bottomnavigation.adapter;
 
+import android.content.Context;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -13,13 +16,21 @@ import com.excerise.bottomnavigation.cafe.Fragment2;
 import com.excerise.bottomnavigation.cafe.Fragment3;
 
 public class CafeViewPagerAdapter extends FragmentStatePagerAdapter {
+
+    private Context context;
     public CafeViewPagerAdapter(@NonNull FragmentManager fm,int behavior) {
         super(fm,behavior);
     }
 
+
+    public class FragmentTest2{
+
+    }
     @NonNull
     @Override
     public Fragment getItem(int position) {
+
+        Toast.makeText(context, "dhdhd", Toast.LENGTH_SHORT).show();
         switch (position){
             case 0: return new Fragment1();
             case 1: return new Fragment2();
