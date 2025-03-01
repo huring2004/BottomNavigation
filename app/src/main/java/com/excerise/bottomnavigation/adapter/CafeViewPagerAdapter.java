@@ -17,6 +17,10 @@ public class CafeViewPagerAdapter extends FragmentStatePagerAdapter {
         super(fm,behavior);
     }
 
+    public class TestFragment{
+
+    }
+
     @NonNull
     @Override
     public Fragment getItem(int position) {
