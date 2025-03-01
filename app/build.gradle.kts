@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.excerise.bottomnavigation"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.excerise.bottomnavigation"
