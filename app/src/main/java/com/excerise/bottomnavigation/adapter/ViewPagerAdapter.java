@@ -5,10 +5,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.excerise.bottomnavigation.Fragment.FragmentCafe;
-import com.excerise.bottomnavigation.Fragment.FragmentHome;
-import com.excerise.bottomnavigation.Fragment.FragmentNoti;
-import com.excerise.bottomnavigation.Fragment.FragmentSearch;
+import com.excerise.bottomnavigation.Test1.FragmentCafe;
+import com.excerise.bottomnavigation.Test1.FragmentHome;
+import com.excerise.bottomnavigation.Test1.FragmentNoti;
+import com.excerise.bottomnavigation.Test1.FragmentSearch;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     int pageNum;
